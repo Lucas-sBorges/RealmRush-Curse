@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4579287993546750831}
   - component: {fileID: 8436490237889800937}
   m_Layer: 0
-  m_Name: Tile
+  m_Name: (0, 0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 6466890348006373237}
   - component: {fileID: 6788001796001191067}
   - component: {fileID: 7554757729542725520}
-  - component: {fileID: 6610569646176578078}
+  - component: {fileID: 1371982893127228925}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 6788001796001191067}
   m_maskType: 0
---- !u!114 &6610569646176578078
+--- !u!114 &1371982893127228925
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -310,6 +310,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8444307164060056979}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf38982d2a04be04bb09cbef8cba0d90, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c5b15316752587488a87083cc60bc12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -7,7 +7,6 @@ using UnityEngine;
 [ExecuteAlways]
 public class CoordinateLabeler : MonoBehaviour
 {   
-    
     TextMeshPro label;
     Vector2Int coordinates = new Vector2Int(); 
     
