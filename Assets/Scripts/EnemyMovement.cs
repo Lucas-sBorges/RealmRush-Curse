@@ -5,17 +5,23 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {   
     [SerializeField] List<Waypoint> path = new List<Waypoint>();
+    [SerializeField] float waitTime = 1f;
+    
     // Start is called before the first frame update
     void Start()
-    {
-        PrintWaypointName();
+    {   
+        
+        StartCoroutine(FollowPath());
+        
     }
 
-    void PrintWaypointName()
+    IEnumerator FollowPath()
     {
         foreach(Waypoint waypoint in path)
-        {
-            Debug.Log(waypoint.name);
+        {   
+            //Estou passando o valor do transform do waypoint para o transform do player
+            transform.position = waypoint.transform.position;
+            yield return new WaitForSeconds(waitTime);
         }
     }
 }
